@@ -38,4 +38,6 @@ If you get to score -10, you lose the game and the webpage shows you an appropri
 
 <img width="1776" alt="Screen Shot 2022-07-03 at 5 51 54 PM" src="https://user-images.githubusercontent.com/68251969/177058660-606b7412-4c64-4d2e-991b-b06d327f7ea4.png">
 
+<img width="322" alt="Screen Shot 2022-07-03 at 6 06 55 PM" src="https://user-images.githubusercontent.com/68251969/177058759-8a1020f0-597d-4fc0-a31d-357ba6c6c5dd.png"><img width="317" alt="Screen Shot 2022-07-03 at 6 06 35 PM" src="https://user-images.githubusercontent.com/68251969/177058768-ad7bd9b0-5274-4222-9371-f16f8a96effa.png">
+
 
