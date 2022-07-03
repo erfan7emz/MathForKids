@@ -12,15 +12,15 @@ HOW TO USE IT?
 In the main page, you can choose between add, subtract, and multiply, click on whichever you would like to try.
 <img width="1778" alt="Screen Shot 2022-07-03 at 5 47 03 PM" src="https://user-images.githubusercontent.com/68251969/177058513-2740adb4-84b8-4838-8cbc-5c81e3e3aa5e.png">
 
-Now type your answer in the i<img width="1787" alt="Screen Shot 2022-07-03 at 5 47 13 PM" src="https://user-images.githubusercontent.com/68251969/177058595-53bae572-a883-4a44-a838-4553758a396a.png">
-nput field, you will get +1 score if you input the correct answer and -1 otherwise. 
-
+Now type your answer in the input field, you will get +1 score if you input the correct answer and -1 otherwise. 
+<img width="1787" alt="Screen Shot 2022-07-03 at 5 47 13 PM" src="https://user-images.githubusercontent.com/68251969/177058595-53bae572-a883-4a44-a838-4553758a396a.png">
 
 
 
 Your condition changes based on your current score and it will show how close/far you are from winning the test.
-Each condition is shown with a specific colour and by g<img width="1773" alt="Screen Shot 2022-07-03 at 5 47 53 PM" src="https://user-images.githubusercontent.com/68251969/177058623-b32d4788-b3cf-40ea-adfe-a03014087df2.png">
-oing to a new condition, the difficulties of questions change.
+Each condition is shown with a specific colour and by going to a new condition, the difficulties of questions change.
+
+<img width="1773" alt="Screen Shot 2022-07-03 at 5 47 53 PM" src="https://user-images.githubusercontent.com/68251969/177058623-b32d4788-b3cf-40ea-adfe-a03014087df2.png">
 
 <img width="1780" alt="Screen Shot 2022-07-03 at 5 51 37 PM" src="https://user-images.githubusercontent.com/68251969/177058627-122324b6-97df-4988-be49-dd7be18f7aa8.png">
 
