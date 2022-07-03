@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: Comic Sans MS, Comic Sans, sans-serif;
+    overflow-x: hidden;
+    word-spacing: 2px;
+}
+
+.main-bg-all{
+    background-size: cover;
+    width: 100%;
+    height: 140vh;
+    position: relative;
+}
+
+.main-bg-allx{
+    background-size: cover;
+    width: 100%;
+    height: 180vh;
+    position: relative;
+}
+
+.main-bg {
+    background: url('images/4737126.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-bg-mult{
+    background: url('images/1624.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-bg-add {
+    background: url('images/2109.w023.n001.1042B.p1.1042.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-bg-add-win{
+    background: url('images/1847.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-bg-mult-lose{
+    background: url('images/7Z_2104.w028.n002.57A.p15.57.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-bg-mult-win {
+    background: url('images/3187.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-bg-sub{
+    background: url('images/2593.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-bg-sub-win{
+    background: url('images/3660.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.badge{
+    margin-left: 4rem;
+    width: 4rem;
+    height: 6rem;
+    clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
+    background-color: rgb(252, 186, 3);
+    z-index: 100;
+    padding: 1.1rem 0.8rem;
+    position: fixed;
+}
+
+.container {
+    width: 55rem;
+    height: 55rem;
+    background-color: white;
+    opacity: 0.9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 7px;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+
+.head-txt {
+    text-align: center;
+    margin-top: 2.2rem;
+    font-size: 80px;
+    font-weight: 800;   
+}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul li {
+    margin: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+}
+
+.still{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 55rem;
+    height: 55rem;
+    background-color: tomato;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.still-sized-lose{
+    height: 65rem;
+}
+
+.still-sized{
+    height: 75rem;
+}
+
+.still-sub{
+    background-color: gold;
+}
+
+.still-mult{
+    background-color: aqua;
+}
+
+.main-msg{
+    margin: 10rem 0 0.5rem;
+    font-size: 45px;
+}
+
+.msg-prize{
+    margin-bottom: 3.5rem;
+}
+
+.board{
+    background-color: whitesmoke;
+    margin: 3rem 15rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.input{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 4rem;
+    width: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    font-family: Comic Sans MS, Comic Sans, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.score{
+    margin: 3rem;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.level{
+    width: 14rem;
+    height: 5rem;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 1.5rem;
+    font-size: 40px;
+    transform: translate(145%, 0%);
+}
+
+.Bad{
+    background-color: rgb(255, 0, 162);
+}
+
+.VeryBad{
+    background-color: rgb(112, 0, 21);
+}
+
+.Good{
+    background-color: rgb(50, 168, 82);
+}
+
+.VeryGood{
+    background-color: rgb(24,214, 27);
+}
+
+.Excellent{
+    background-color: rgb(136,255, 0);
+}
+
+.add {
+    margin-top: 7rem;
+    width: 300px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub {
+    width: 300px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mult {
+    width: 300px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.incorrect {
+    color: red;
+}
+
+.footer {
+    background-color: rgb(45, 45, 45);
+    color: white;
+    text-align: center;
+    padding: 1.3rem;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
+
+.add-footer{
+    position: fixed;
+    background-color: aqua;
+}
+
+.circle{
+    width:5rem;
+    height:5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-15%, 30%);
+}
+
+.circle-win{
+    transform: translate(410%, 0%);
+    margin: 3rem 1rem;
+}
+
+.subc{
+    background-color: gold;
+}
+
+.addc{
+    background-color: tomato;
+}
+
+.multc{
+    background-color: aqua;
+}
+
+.win-head{
+    margin: 4rem 3rem;
+    font-size: 60px;
+}
+
+.win-head2{
+    margin: 1rem;
+}
+
+.prize {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-tg {
+    width: 8rem;
+    height: 4rem;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.btn-tg-lose{
+    margin-top: 2rem;
+}
+
+.btn-tg-win{
+    margin: 2rem;
+}
+
+@media only screen and (max-height: 670px) {
+    .main-bg-all{
+        height: 190vh;
+    }
+    .main-bg-allx{
+        height: 220vh;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    .main-bg-all{
+        height: 220vh;
+    }
+    .main-bg-allx{
+        height: 250vh;
+    }
+}
+
+@media only screen and (max-height: 800px) {
+    .main-bg-all{
+        height: 200vh;
+    }
+}
+
+@media only screen and (max-height: 520px) {
+    .main-bg-all{
+        height: 220vh;
+    }
+    .main-bg-allx{
+        height: 260vh;
+    }
+}
+
+@media only screen and (max-height: 400px) {
+    .main-bg-all{
+        height: 300vh;
+    }
+}
+
+
+@media only screen and (max-height: 415px) {
+    .main-bg-all{
+        height: 320vh;
+    }
+}
+
+@media only screen and (max-height: 450px) {
+    .main-bg-allx{
+        height: 330vh;
+    }
+}
+
+@media only screen and (max-height: 350px) {
+    .main-bg-allx{
+        height: 380vh;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 45rem;
+    }
+    .still{
+        width: 40rem;
+        height: 55rem;
+        top: 40%;
+    }
+    .still-sized{
+        height: 60rem;
+    }
+    .win-head{
+        margin: 3rem 0.5rem 1rem;
+        font-size: 60px;
+    }
+    .circle-win{
+        transform: translate(280%, 0%);
+        margin: 2.5rem 0.5rem;
+    }
+    .main-msg{
+        margin: 4rem 0 0.5rem;
+        font-size: 40px;
+    }
+    .msg-prize{
+        margin-bottom: 3.5rem;
+    }
+    .board{
+        margin: 5rem 5rem 3rem;
+    }
+    .level{
+        transform: translate(90%, 0%);
+    }
+    .win-head{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .container {
+        width: 30rem;
+        height: 55rem;
+    }
+    .head-txt{
+        font-size: 60px;   
+        font-weight: 800;   
+    }
+    .add{
+        margin-top: 2rem;
+    }
+    .still{
+        width: 30rem;
+        height: 55rem;
+        top: 40%;
+    }
+    .win-head{
+        margin: 3rem 0.5rem 1.5rem;
+        font-size: 50px;
+    }
+    .circle-win{
+        transform: translate(175%, 0%);
+        margin: 2.5rem 0.5rem;
+    } 
+    .main-msg{
+        margin: 3rem 0 0.5rem;
+        font-size: 40px;
+    }
+    .msg-prize{
+        margin-bottom: 2.5rem;
+    }
+    .board{
+        margin: 2rem 5rem 1rem;
+    }
+    .level{
+        transform: translate(55%, 0%);
+    }
+    .btn-tg-lose{
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .badge{
+        margin-left: 0.8rem;
+        width: 3rem;
+        height: 4rem;
+        padding: 0.5rem 0.4rem;
+    }
+    .container {
+        width: 20rem;
+        height: 45rem;
+        top: 40%;
+    }
+    .head-txt{
+        font-size: 40px;
+        font-weight: 800;   
+    }
+    .add{
+        transform: translate(8%, 10%);
+        margin-top: 0;
+        width: 240px;
+        height: 120px;
+    }
+    .sub{
+        transform: translate(8%, 10%);
+        width: 240px;
+        height: 120px;
+    }
+    .mult{
+        transform: translate(8%, 10%);
+        width: 240px;
+        height: 120px;
+    }
+    .circle{
+        width:4rem;
+        height:4rem;
+        transform: translate(0%, 40%);
+    }
+    .circle-win{
+        transform: translate(120%, 0%);
+        margin: 1rem 0.5rem;
+    }    
+    .still{
+        width: 20rem;
+        height: 50rem;
+        top: 40%;
+    }
+    .main-bg-allx{
+        height: 140vh;
+    }
+    .main-msg{
+        margin: 3rem 0 0.5rem;
+        font-size: 37px;
+    }
+    .msg-prize{
+        margin-bottom: 2.5rem;
+    }
+    .board{
+        margin: 2rem 3rem 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .score{
+        margin: 2rem;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .level{
+        font-size: 35px;
+        transform: translate(20%, 0%);
+    }
+    .win-head{
+        margin: 3rem 0.5rem 1.5rem;
+        font-size: 40px;
+    }
+    .btn-tg-lose{
+        margin-top: 4rem;
+    }
+}
