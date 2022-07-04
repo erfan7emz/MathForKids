@@ -3,7 +3,7 @@
 INTRODUCTION:
 
 
-MathForKids is a web application that helps kids from 4 to 8 to learn calculation skills in a fun and interactive way.
+MathForKids is a web application that helps kids from 4 to 8 to learn calculation skills in a fun, engaging and interactive way.
 
 
 HOW TO USE IT?
